@@ -25,9 +25,6 @@ new Vue({
       new_id = this.default_last_id + 1;
       this.default_last_id = new_id;
       this.students.push({ id: new_id, name: this.name, cource: this.cource, acceptance_period: this.acceptance_period })
-      this.name = "";
-      this.cource = "";
-      this.acceptance_period = "";
     }
   }
 })
